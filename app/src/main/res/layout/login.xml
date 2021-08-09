@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.gunners.hospitalmgmtsys.login"
+    android:background="@drawable/loginbg1"
+    >
+
+    <TextView android:text="" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.example.cyber.calls.Login"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true">
+            <TextView
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="11dp"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="13dp"
+                android:text="Login"
+                android:textColor="#fff045"
+                android:fontFamily="sans-serif-condensed"
+
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/foodun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/login"
+                android:layout_alignStart="@+id/login"
+                android:layout_below="@+id/login"
+                android:layout_marginTop="80dp"
+                android:fontFamily="monospace"
+                android:text="Username"
+                android:textColor="#fff045"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/foodusername"
+                android:textColor="#fff045"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/foodun"
+                android:ems="17"
+                android:layout_alignLeft="@+id/foodun" />
+            <TextView
+                android:id="@+id/foodup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/foodusername"
+                android:layout_alignStart="@+id/foodusername"
+                android:layout_below="@+id/foodusername"
+                android:layout_marginTop="33dp"
+                android:fontFamily="monospace"
+                android:text="Password"
+                android:textSize="25sp"
+                android:textColor="#fff045"
+                />
+            <EditText
+                android:id="@+id/foodpassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="17"
+                android:layout_below="@+id/foodup"
+                android:layout_alignLeft="@+id/foodup"
+                android:textColor="#fff045"/>
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_height="80dp"
+                android:layout_width="80dp"
+                android:background="@drawable/login_drawable"
+
+                android:ems="12"
+                android:text="Login"
+                android:layout_below="@+id/foodpassword"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="32dp" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

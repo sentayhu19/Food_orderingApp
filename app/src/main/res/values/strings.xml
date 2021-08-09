@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Food_orderingApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_spalsh">spalsh</string>
+    <string name="title_activity_checkout">checkout</string>
+    <string name="title_activity_web1">web1</string>
+</resources>
