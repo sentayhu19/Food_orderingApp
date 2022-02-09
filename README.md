@@ -15,5 +15,5 @@ git clone  https://github.com/sentayhu19/Food_orderingApp
 
 
 #
-## Author
+### Author
  **Sentayhu Berhanu Robi** - [sentayhhu19](https://github.com/sentayhu19)
