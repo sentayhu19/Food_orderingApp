@@ -4,10 +4,12 @@
 #### Cloning the project
 ```
 git clone  https://github.com/sentayhu19/Food_orderingApp 
-### Built With
 
--Jvava
--XML
+
+## Built With
+
+- Java
+- XML
 
 
 ### Prerequisites
