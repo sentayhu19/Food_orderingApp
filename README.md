@@ -3,13 +3,10 @@
 
 #### Cloning the project
 ```
-git clone  https://github.com/sentayhu19/Food_orderingApp <Your-Build-Directory>
-
+git clone  https://github.com/sentayhu19/Food_orderingApp 
 ## Built With
-
 -Jvava
 -XML
-
 ### Prerequisites
 ##Android studio
 ## Author
