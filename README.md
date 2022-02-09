@@ -7,11 +7,10 @@ git clone  https://github.com/sentayhu19/Food_orderingApp <Your-Build-Directory>
 
 ## Built With
 
-```
--Java
+-Jvava
 -XML
 
 ### Prerequisites
-##VSCode or any other equivalent code editor
+##Android studio
 ## Author
  **Sentayhu Berhanu Robi** - [sentayhhu19](https://github.com/sentayhu19)
